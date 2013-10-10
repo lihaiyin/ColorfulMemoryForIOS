@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6357A4A1-76CA-41C3-9068-CEF336831C6B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ColorfulMemory</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BF6E0AFB-F9F8-4A78-8157-727B9AB26710</key>
+		<string>https://github.com/lihaiyin/ColorfulMemoryForIOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ColorfulMemory/ColorfulMemory.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BF6E0AFB-F9F8-4A78-8157-727B9AB26710</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lihaiyin/ColorfulMemoryForIOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BF6E0AFB-F9F8-4A78-8157-727B9AB26710</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BF6E0AFB-F9F8-4A78-8157-727B9AB26710</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ColorfulMemoryForIOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

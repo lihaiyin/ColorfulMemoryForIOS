@@ -1,17 +1,25 @@
 //
-//  cfAppDelegate.m
-//  Colorful Memory
+//  AppDelegate.m
+//  ColorfulMemory
 //
-//  Created by pc on 13-10-9.
+//  Created by pc on 13-10-10.
 //  Copyright (c) 2013年 pc. All rights reserved.
 //
 
-#import "cfAppDelegate.h"
+#import "AppDelegate.h"
+#import "ViewController.h"
 
-@implementation cfAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    StartPageViewController *startController = [[StartPageViewController alloc]init];
+    self.navController = [[UINavigationController alloc]initWithRootViewController:startController];
+    
+    self.window.rootViewController = self.navController;
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }
