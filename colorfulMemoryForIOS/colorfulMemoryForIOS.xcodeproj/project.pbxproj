@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FC941471808185D0016BCB1 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC941461808185D0016BCB1 /* CardViewController.m */; };
+		4FDC833F1806C34600D6D96A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDC833E1806C34600D6D96A /* Foundation.framework */; };
+		4FDC83411806C34600D6D96A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDC83401806C34600D6D96A /* CoreGraphics.framework */; };
+		4FDC83431806C34600D6D96A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDC83421806C34600D6D96A /* UIKit.framework */; };
+		4FDC83491806C34600D6D96A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC83471806C34600D6D96A /* InfoPlist.strings */; };
+		4FDC834B1806C34600D6D96A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC834A1806C34600D6D96A /* main.m */; };
+		4FDC834F1806C34600D6D96A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC834E1806C34600D6D96A /* AppDelegate.m */; };
+		4FDC83521806C34600D6D96A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC83501806C34600D6D96A /* Main.storyboard */; };
+		4FDC83551806C34600D6D96A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC83541806C34600D6D96A /* ViewController.m */; };
+		4FDC83571806C34600D6D96A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC83561806C34600D6D96A /* Images.xcassets */; };
+		4FDC835E1806C34600D6D96A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDC835D1806C34600D6D96A /* XCTest.framework */; };
+		4FDC835F1806C34600D6D96A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDC833E1806C34600D6D96A /* Foundation.framework */; };
+		4FDC83601806C34600D6D96A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDC83421806C34600D6D96A /* UIKit.framework */; };
+		4FDC83681806C34600D6D96A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC83661806C34600D6D96A /* InfoPlist.strings */; };
+		4FDC836A1806C34600D6D96A /* colorfulMemoryForIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC83691806C34600D6D96A /* colorfulMemoryForIOSTests.m */; };
+		4FDC83751806C64800D6D96A /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC83731806C64800D6D96A /* back.jpg */; };
+		4FDC83761806C64800D6D96A /* background2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC83741806C64800D6D96A /* background2.jpg */; };
+		4FDC83791806D3C100D6D96A /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC83781806D3C100D6D96A /* GameViewController.m */; };
+		4FE5FB7A1807A10F004C48E0 /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5FB791807A10F004C48E0 /* ScoreViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FDC83611806C34600D6D96A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FDC83331806C34600D6D96A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FDC833A1806C34600D6D96A;
+			remoteInfo = colorfulMemoryForIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FC941451808185D0016BCB1 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		4FC941461808185D0016BCB1 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		4FDC833B1806C34600D6D96A /* colorfulMemoryForIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colorfulMemoryForIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FDC833E1806C34600D6D96A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4FDC83401806C34600D6D96A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4FDC83421806C34600D6D96A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4FDC83461806C34600D6D96A /* colorfulMemoryForIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "colorfulMemoryForIOS-Info.plist"; sourceTree = "<group>"; };
+		4FDC83481806C34600D6D96A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FDC834A1806C34600D6D96A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FDC834C1806C34600D6D96A /* colorfulMemoryForIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "colorfulMemoryForIOS-Prefix.pch"; sourceTree = "<group>"; };
+		4FDC834D1806C34600D6D96A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FDC834E1806C34600D6D96A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FDC83511806C34600D6D96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FDC83531806C34600D6D96A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4FDC83541806C34600D6D96A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4FDC83561806C34600D6D96A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4FDC835C1806C34600D6D96A /* colorfulMemoryForIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colorfulMemoryForIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FDC835D1806C34600D6D96A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4FDC83651806C34600D6D96A /* colorfulMemoryForIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "colorfulMemoryForIOSTests-Info.plist"; sourceTree = "<group>"; };
+		4FDC83671806C34600D6D96A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FDC83691806C34600D6D96A /* colorfulMemoryForIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = colorfulMemoryForIOSTests.m; sourceTree = "<group>"; };
+		4FDC83731806C64800D6D96A /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		4FDC83741806C64800D6D96A /* background2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background2.jpg; sourceTree = "<group>"; };
+		4FDC83771806D3C100D6D96A /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		4FDC83781806D3C100D6D96A /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		4FE5FB781807A10F004C48E0 /* ScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreViewController.h; sourceTree = "<group>"; };
+		4FE5FB791807A10F004C48E0 /* ScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FDC83381806C34600D6D96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDC83411806C34600D6D96A /* CoreGraphics.framework in Frameworks */,
+				4FDC83431806C34600D6D96A /* UIKit.framework in Frameworks */,
+				4FDC833F1806C34600D6D96A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDC83591806C34600D6D96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDC835E1806C34600D6D96A /* XCTest.framework in Frameworks */,
+				4FDC83601806C34600D6D96A /* UIKit.framework in Frameworks */,
+				4FDC835F1806C34600D6D96A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FDC83321806C34600D6D96A = {
+			isa = PBXGroup;
+			children = (
+				4FDC83441806C34600D6D96A /* colorfulMemoryForIOS */,
+				4FDC83631806C34600D6D96A /* colorfulMemoryForIOSTests */,
+				4FDC833D1806C34600D6D96A /* Frameworks */,
+				4FDC833C1806C34600D6D96A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FDC833C1806C34600D6D96A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FDC833B1806C34600D6D96A /* colorfulMemoryForIOS.app */,
+				4FDC835C1806C34600D6D96A /* colorfulMemoryForIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FDC833D1806C34600D6D96A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FDC833E1806C34600D6D96A /* Foundation.framework */,
+				4FDC83401806C34600D6D96A /* CoreGraphics.framework */,
+				4FDC83421806C34600D6D96A /* UIKit.framework */,
+				4FDC835D1806C34600D6D96A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FDC83441806C34600D6D96A /* colorfulMemoryForIOS */ = {
+			isa = PBXGroup;
+			children = (
+				4FDC834D1806C34600D6D96A /* AppDelegate.h */,
+				4FDC834E1806C34600D6D96A /* AppDelegate.m */,
+				4FDC83501806C34600D6D96A /* Main.storyboard */,
+				4FDC83531806C34600D6D96A /* ViewController.h */,
+				4FDC83541806C34600D6D96A /* ViewController.m */,
+				4FDC83561806C34600D6D96A /* Images.xcassets */,
+				4FDC83451806C34600D6D96A /* Supporting Files */,
+				4FDC83771806D3C100D6D96A /* GameViewController.h */,
+				4FDC83781806D3C100D6D96A /* GameViewController.m */,
+				4FE5FB781807A10F004C48E0 /* ScoreViewController.h */,
+				4FE5FB791807A10F004C48E0 /* ScoreViewController.m */,
+				4FC941451808185D0016BCB1 /* CardViewController.h */,
+				4FC941461808185D0016BCB1 /* CardViewController.m */,
+			);
+			path = colorfulMemoryForIOS;
+			sourceTree = "<group>";
+		};
+		4FDC83451806C34600D6D96A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FDC83731806C64800D6D96A /* back.jpg */,
+				4FDC83741806C64800D6D96A /* background2.jpg */,
+				4FDC83461806C34600D6D96A /* colorfulMemoryForIOS-Info.plist */,
+				4FDC83471806C34600D6D96A /* InfoPlist.strings */,
+				4FDC834A1806C34600D6D96A /* main.m */,
+				4FDC834C1806C34600D6D96A /* colorfulMemoryForIOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FDC83631806C34600D6D96A /* colorfulMemoryForIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FDC83691806C34600D6D96A /* colorfulMemoryForIOSTests.m */,
+				4FDC83641806C34600D6D96A /* Supporting Files */,
+			);
+			path = colorfulMemoryForIOSTests;
+			sourceTree = "<group>";
+		};
+		4FDC83641806C34600D6D96A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FDC83651806C34600D6D96A /* colorfulMemoryForIOSTests-Info.plist */,
+				4FDC83661806C34600D6D96A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FDC833A1806C34600D6D96A /* colorfulMemoryForIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FDC836D1806C34600D6D96A /* Build configuration list for PBXNativeTarget "colorfulMemoryForIOS" */;
+			buildPhases = (
+				4FDC83371806C34600D6D96A /* Sources */,
+				4FDC83381806C34600D6D96A /* Frameworks */,
+				4FDC83391806C34600D6D96A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = colorfulMemoryForIOS;
+			productName = colorfulMemoryForIOS;
+			productReference = 4FDC833B1806C34600D6D96A /* colorfulMemoryForIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FDC835B1806C34600D6D96A /* colorfulMemoryForIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FDC83701806C34600D6D96A /* Build configuration list for PBXNativeTarget "colorfulMemoryForIOSTests" */;
+			buildPhases = (
+				4FDC83581806C34600D6D96A /* Sources */,
+				4FDC83591806C34600D6D96A /* Frameworks */,
+				4FDC835A1806C34600D6D96A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FDC83621806C34600D6D96A /* PBXTargetDependency */,
+			);
+			name = colorfulMemoryForIOSTests;
+			productName = colorfulMemoryForIOSTests;
+			productReference = 4FDC835C1806C34600D6D96A /* colorfulMemoryForIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FDC83331806C34600D6D96A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = pc;
+				TargetAttributes = {
+					4FDC835B1806C34600D6D96A = {
+						TestTargetID = 4FDC833A1806C34600D6D96A;
+					};
+				};
+			};
+			buildConfigurationList = 4FDC83361806C34600D6D96A /* Build configuration list for PBXProject "colorfulMemoryForIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FDC83321806C34600D6D96A;
+			productRefGroup = 4FDC833C1806C34600D6D96A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FDC833A1806C34600D6D96A /* colorfulMemoryForIOS */,
+				4FDC835B1806C34600D6D96A /* colorfulMemoryForIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FDC83391806C34600D6D96A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDC83751806C64800D6D96A /* back.jpg in Resources */,
+				4FDC83571806C34600D6D96A /* Images.xcassets in Resources */,
+				4FDC83761806C64800D6D96A /* background2.jpg in Resources */,
+				4FDC83491806C34600D6D96A /* InfoPlist.strings in Resources */,
+				4FDC83521806C34600D6D96A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDC835A1806C34600D6D96A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDC83681806C34600D6D96A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FDC83371806C34600D6D96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE5FB7A1807A10F004C48E0 /* ScoreViewController.m in Sources */,
+				4FDC83791806D3C100D6D96A /* GameViewController.m in Sources */,
+				4FC941471808185D0016BCB1 /* CardViewController.m in Sources */,
+				4FDC83551806C34600D6D96A /* ViewController.m in Sources */,
+				4FDC834F1806C34600D6D96A /* AppDelegate.m in Sources */,
+				4FDC834B1806C34600D6D96A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDC83581806C34600D6D96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDC836A1806C34600D6D96A /* colorfulMemoryForIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FDC83621806C34600D6D96A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FDC833A1806C34600D6D96A /* colorfulMemoryForIOS */;
+			targetProxy = 4FDC83611806C34600D6D96A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FDC83471806C34600D6D96A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FDC83481806C34600D6D96A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4FDC83501806C34600D6D96A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FDC83511806C34600D6D96A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FDC83661806C34600D6D96A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FDC83671806C34600D6D96A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FDC836B1806C34600D6D96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4FDC836C1806C34600D6D96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FDC836E1806C34600D6D96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colorfulMemoryForIOS/colorfulMemoryForIOS-Prefix.pch";
+				INFOPLIST_FILE = "colorfulMemoryForIOS/colorfulMemoryForIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4FDC836F1806C34600D6D96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colorfulMemoryForIOS/colorfulMemoryForIOS-Prefix.pch";
+				INFOPLIST_FILE = "colorfulMemoryForIOS/colorfulMemoryForIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4FDC83711806C34600D6D96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/colorfulMemoryForIOS.app/colorfulMemoryForIOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colorfulMemoryForIOS/colorfulMemoryForIOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "colorfulMemoryForIOSTests/colorfulMemoryForIOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4FDC83721806C34600D6D96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/colorfulMemoryForIOS.app/colorfulMemoryForIOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colorfulMemoryForIOS/colorfulMemoryForIOS-Prefix.pch";
+				INFOPLIST_FILE = "colorfulMemoryForIOSTests/colorfulMemoryForIOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FDC83361806C34600D6D96A /* Build configuration list for PBXProject "colorfulMemoryForIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDC836B1806C34600D6D96A /* Debug */,
+				4FDC836C1806C34600D6D96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FDC836D1806C34600D6D96A /* Build configuration list for PBXNativeTarget "colorfulMemoryForIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDC836E1806C34600D6D96A /* Debug */,
+				4FDC836F1806C34600D6D96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FDC83701806C34600D6D96A /* Build configuration list for PBXNativeTarget "colorfulMemoryForIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDC83711806C34600D6D96A /* Debug */,
+				4FDC83721806C34600D6D96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FDC83331806C34600D6D96A /* Project object */;
+}

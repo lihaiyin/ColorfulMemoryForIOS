@@ -1,6 +1,6 @@
 //
-//  ColorfulMemoryTests.m
-//  ColorfulMemoryTests
+//  colorfulMemoryForIOSTests.m
+//  colorfulMemoryForIOSTests
 //
 //  Created by pc on 13-10-10.
 //  Copyright (c) 2013年 pc. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface ColorfulMemoryTests : XCTestCase
+@interface colorfulMemoryForIOSTests : XCTestCase
 
 @end
 
-@implementation ColorfulMemoryTests
+@implementation colorfulMemoryForIOSTests
 
 - (void)setUp
 {

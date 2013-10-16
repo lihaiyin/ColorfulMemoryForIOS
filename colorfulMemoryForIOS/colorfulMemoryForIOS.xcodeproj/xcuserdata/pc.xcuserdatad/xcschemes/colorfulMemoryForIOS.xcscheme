@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4F2B9EBC180671FA0096B352"
-               BuildableName = "ColorfulMemory.app"
-               BlueprintName = "ColorfulMemory"
-               ReferencedContainer = "container:ColorfulMemory.xcodeproj">
+               BlueprintIdentifier = "4FDC833A1806C34600D6D96A"
+               BuildableName = "colorfulMemoryForIOS.app"
+               BlueprintName = "colorfulMemoryForIOS"
+               ReferencedContainer = "container:colorfulMemoryForIOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4F2B9EDD180671FB0096B352"
-               BuildableName = "ColorfulMemoryTests.xctest"
-               BlueprintName = "ColorfulMemoryTests"
-               ReferencedContainer = "container:ColorfulMemory.xcodeproj">
+               BlueprintIdentifier = "4FDC835B1806C34600D6D96A"
+               BuildableName = "colorfulMemoryForIOSTests.xctest"
+               BlueprintName = "colorfulMemoryForIOSTests"
+               ReferencedContainer = "container:colorfulMemoryForIOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4F2B9EBC180671FA0096B352"
-            BuildableName = "ColorfulMemory.app"
-            BlueprintName = "ColorfulMemory"
-            ReferencedContainer = "container:ColorfulMemory.xcodeproj">
+            BlueprintIdentifier = "4FDC833A1806C34600D6D96A"
+            BuildableName = "colorfulMemoryForIOS.app"
+            BlueprintName = "colorfulMemoryForIOS"
+            ReferencedContainer = "container:colorfulMemoryForIOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4F2B9EBC180671FA0096B352"
-            BuildableName = "ColorfulMemory.app"
-            BlueprintName = "ColorfulMemory"
-            ReferencedContainer = "container:ColorfulMemory.xcodeproj">
+            BlueprintIdentifier = "4FDC833A1806C34600D6D96A"
+            BuildableName = "colorfulMemoryForIOS.app"
+            BlueprintName = "colorfulMemoryForIOS"
+            ReferencedContainer = "container:colorfulMemoryForIOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4F2B9EBC180671FA0096B352"
-            BuildableName = "ColorfulMemory.app"
-            BlueprintName = "ColorfulMemory"
-            ReferencedContainer = "container:ColorfulMemory.xcodeproj">
+            BlueprintIdentifier = "4FDC833A1806C34600D6D96A"
+            BuildableName = "colorfulMemoryForIOS.app"
+            BlueprintName = "colorfulMemoryForIOS"
+            ReferencedContainer = "container:colorfulMemoryForIOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6357A4A1-76CA-41C3-9068-CEF336831C6B</string>
+	<string>2274A85D-EB2D-4158-A8FC-F6191733ACDB</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ColorfulMemory</string>
+	<string>colorfulMemoryForIOS</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BF6E0AFB-F9F8-4A78-8157-727B9AB26710</key>
 		<string>https://github.com/lihaiyin/ColorfulMemoryForIOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ColorfulMemory/ColorfulMemory.xcodeproj/project.xcworkspace</string>
+	<string>colorfulMemoryForIOS/colorfulMemoryForIOS.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BF6E0AFB-F9F8-4A78-8157-727B9AB26710</key>

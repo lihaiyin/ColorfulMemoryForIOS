@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ColorfulMemory.xcscheme</key>
+		<key>colorfulMemoryForIOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4F2B9EBC180671FA0096B352</key>
+		<key>4FDC833A1806C34600D6D96A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4F2B9EDD180671FB0096B352</key>
+		<key>4FDC835B1806C34600D6D96A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
